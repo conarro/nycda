@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <style>
+      h1 {
+        color: red;
+      }
+
+      p {
+        background: gray;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="my-header">Hello World!</h1>
+    <p class="my-class">This is my first web page. It's pretty simple.</p>
+    <p class="my-class">This is another paragraph.</p>
+  </body>
+
+  <script>
+    document.getElementById("my-header").innerHTML = "Hello Universe!";
+    document.getElementById("my-header").style.color = "blue";
+  </script>
+
+</html>
